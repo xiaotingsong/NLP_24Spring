@@ -5,8 +5,9 @@ import os
 from openai import OpenAI
 from utils import generate_travel_plan_chat, place_rating, distance_places
 
-chat_key = "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"
-google_key = 'OGM2ODVlZTQyODQ5NGVkYzk4ZGMxZWZkZWUzOTU2OTh8OGM3YmZjOTc1OQ'
+chat_key = "my_chatgpt_key"
+google_key = 'google_key'
+gemini_key = 'gemini_key'
 
 city_pairs = [
     ['New York City', 'Los Angeles'],
